@@ -214,13 +214,13 @@ cat: /home/devops_user/devops_workspace/project_notes.txt: Permission denied
 1. **File Permissions**:
 
 ```bash
--rw-r----- 1 root root 0 Oct 10 14:30 /devops_workspace/project_notes.txt
+-rw-r----- 1 devops_user devops_team 0 Feb  4 12:22 devops_workspace/project_notes.txt
 ```
 
 2. **Directory Permissions**:
 
 ```bash
-drwxr-x--- 2 root root 4096 Oct 10 14:30 /devops_workspace
+drwxr-x--- 2 devops_user devops_team 4096 Feb  4 12:22 devops_workspace/
 ```
 
 3. **Permission Tests**:
