@@ -209,7 +209,7 @@ devops_user@172.168.1.100's password:
 Welcome to Ubuntu 22.04 LTS (GNU/Linux 5.15.0-83-generic x86_64)
 ...
 
-ssh_user@hostname:~$
+devops_user@hostname:~$
 ```
 
 ---
