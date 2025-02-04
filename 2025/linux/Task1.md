@@ -82,7 +82,7 @@ devops_user : devops_user devops_team
 
 ---
 
-## Step 2: Set a Password and Grant Sudo Access
+## 2. Set a Password and Grant Sudo Access
 
 ### 2.1 Set a Password for `devops_user`
 
@@ -128,7 +128,7 @@ If prompted for a password, enter the password for `devops_user`. If the command
 
 ---
 
-## Step 3: Restrict SSH Login for Certain Users
+## 3. Restrict SSH Login for Certain Users
 
 ### 3.1 Edit the SSH Configuration File
 
