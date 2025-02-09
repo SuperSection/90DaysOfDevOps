@@ -97,7 +97,6 @@ user_info() {
     fi
 
     echo -e "\nDetailed user information:"
-    echo -e "Username\t UID\t GID\t Home Dir\t Default Shell"
     awk -F: -v user="$username" '$1 == user {
         print "Username:\t" $1 "\nUID:\t\t" $3 "\nGID:\t\t" $4 "\nHome:\t\t" $6 "\nShell:\t\t" $7
     }' /etc/passwd
